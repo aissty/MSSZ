@@ -1,0 +1,34 @@
+src/*.exe
+src/msszcoin
+src/msszcoind
+src/test_msszcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.msszcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+msszcoin-qt
+Msszcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+msszcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
